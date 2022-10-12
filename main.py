@@ -15,4 +15,15 @@ for i in range(0, n):
     m.append(element)
 
 print("Sorted array: ")
+b = int(input("По возрастанию - 1, по убыванию - 0: "))
+print("Sorted array: ")
+
+if b == 1:
+    bubble_sort(m)
+elif b == 0:
+    bubble_sort(m)
+    m.reverse()
+else:
+    print("Error")
+
 print(m)
